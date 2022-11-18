@@ -22,20 +22,15 @@ Please refer to our native [UI Library overview](https://docs.microsoft.com/en-u
 Clone repo and open `CommunicationCallingXamarinSampleApp.sln` in Visual Studio
 
 #### For Android
+1. Navigate to `/XamarinAndroidBindings/` and in this directory in terminal run `sh downloadJarScript` [Learn More](XamarinAndroidBindings/README.md#download-jarsaars)
 
 Set `CommunicationCallingXamarinSampleApp.Android` as start up project, build solution and select a device or emulator to run application.
 
 #### For iOS
-It is recommended building the binding libraries on MacOS first. 
-
-First navigate to `XamariniOSindins/CommunicationUIProxy.Binding` and build the `CommunicationUIProxy.Binding.sln`. 
-This will generate `CommunicationUIProxy.Binding\bin` folder where it will have `NativeLibrary.dll` for you to use. 
-
-Open `CommunicationCallingXamarinSampleApp.sln`. Under the `CommunicationCallingXamarinSampleApp.iOS/References` right click and `Add Reference`. In the `.Net Assembly` tab we can browse to where the `.dll` of our binding library and add it as a reference. 
-Now you can including the library into your project by adding `using Xam.CommunicationUIProxy.iOS;` at the top of you `.cs` files. 
+1. Navigate to `/XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy` and in this directory in terminal run `sh iOSFramework -d` [Learn More](https://github.com/Azure-Samples/communication-services-ui-library-xamarin/tree/refactor/cleanup/XamariniOSBindings#create-frameworks)
+2. Next navigate to `/XamariniOSBindings/CommunicationUIProxy.Binding` and build the `CommunicationUIProxy.Binding.sln`.  This will generate `CommunicationUIProxy.Binding\bin` folder where it will have `NativeLibrary.dll` for you to use. 
 
 Set `CommunicationCallingXamarinSampleApp.iOS` as start up project, build, and select a device or emulator to run application.
-
 
 ## Key Sample Highlights
 
@@ -52,9 +47,8 @@ Set `CommunicationCallingXamarinSampleApp.iOS` as start up project, build, and s
     | CommunicationCore -> Bindings for communication core (required for object `ExpandableStringEnum`)
 | XamariniOSBindings
     | CommunicationUIProxy.Binding -> Bindings for Azure Communication UI library 
+    | ProxyLibs -> CommunicationUI proxy library to bridge swift methods to objective-c
 ```
-
-
 
 ### Android and iOS Common code 
 

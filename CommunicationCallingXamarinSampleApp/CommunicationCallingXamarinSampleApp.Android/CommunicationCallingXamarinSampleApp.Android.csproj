@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
 <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+<AndroidSupportedAbis>armeabi-v7a;arm64-v8a;x86;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -191,9 +192,6 @@
       <AndroidSkipResourceProcessing></AndroidSkipResourceProcessing>
     </AndroidAarLibrary>
     <AndroidAarLibrary Include="aar\fluentui_drawer-0.0.20.aar">
-      <AndroidSkipResourceProcessing></AndroidSkipResourceProcessing>
-    </AndroidAarLibrary>
-    <AndroidAarLibrary Include="aar\dualscreen-layout-1.0.0-alpha01.aar">
       <AndroidSkipResourceProcessing></AndroidSkipResourceProcessing>
     </AndroidAarLibrary>
     <AndroidAarLibrary Include="aar\fluentui_listitem-0.0.20.aar">

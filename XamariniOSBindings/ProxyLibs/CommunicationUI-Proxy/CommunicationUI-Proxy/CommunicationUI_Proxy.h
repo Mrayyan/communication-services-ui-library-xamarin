@@ -1,10 +1,7 @@
 //
-//  CommunicationUI_Proxy.h
-//  CommunicationUI-Proxy
+//  Copyright (c) Microsoft Corporation. All rights reserved.
+//  Licensed under the MIT License.
 //
-//  Created by Joshua Lai on 2022-01-06.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for CommunicationUI_Proxy.

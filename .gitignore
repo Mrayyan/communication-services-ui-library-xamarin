@@ -24,6 +24,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+**/DerivedData
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -189,6 +190,15 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 .vscode/settings.json
+CommunicationCallingXamarinSampleApp/CommunicationCallingXamarinSampleApp.Android/Resources/
+XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/obj/
+XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/bin/
+XamarinAndroidBindings/CommunicationCore/CommunicationCore/obj/
+XamarinAndroidBindings/CommunicationCore/CommunicationCore/bin/
+XamarinAndroidBindings/CommunicationUILibrary/CommunicationUILibrary/obj/
+XamarinAndroidBindings/CommunicationUILibrary/CommunicationUILibrary/bin/
+
+XamariniOSBindings/CommunicationUIProxy.Binding/.vs
 
 # CocoaPods
 #
@@ -199,11 +209,25 @@ FakesAssemblies/
 # Pods/
 XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/Pods/
 XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/Pods/Framework
-#Frameworks
-XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/Framework/
 
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/CommunicationUI-Proxy.xcworkspace/xcuserdata/
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/CommunicationUI-Proxy.xcodeproj/xcuserdata/
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/CommunicationUI-Proxy.xcodeproj/project.pbxproj
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/CommunicationUI-Proxy.xcodeproj/project.xcworkspace/xcuserdata/
+
+#Frameworks
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/Framework
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/DeviceFramework
+XamariniOSBindings/ProxyLibs/CommunicationUI-Proxy/SimulatorFramework
+XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/Framework/
+XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/bin/
+XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/.vs
+XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/obj
 # Jars/
 XamarinAndroidBindings/CommunicationCore/CommunicationCore/Jars/
 XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/Jars/
 XamarinAndroidBindings/CommunicationUILibrary/CommunicationUILibrary/Jars/
 CommunicationCallingXamarinSampleApp/CommunicationCallingXamarinSampleApp.Android/aar
+
+*.jar
+*.aar

@@ -8,37 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		2E2657BEE98B963DEB433B26 /* Pods_CommunicationUI_Proxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C5DDD3CB912E342D82DB69 /* Pods_CommunicationUI_Proxy.framework */; };
-		8833B83328B942D400A8D94C /* CommunicationUI_Proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 88987F6F2787944A00F8F3AC /* CommunicationUI_Proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8833B83528B942D400A8D94C /* CommunicationUIProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88987F76278794EC00F8F3AC /* CommunicationUIProxy.swift */; };
-		8833B83728B942D400A8D94C /* Pods_CommunicationUI_Proxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C5DDD3CB912E342D82DB69 /* Pods_CommunicationUI_Proxy.framework */; };
 		88987F702787944A00F8F3AC /* CommunicationUI_Proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 88987F6F2787944A00F8F3AC /* CommunicationUI_Proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88987F77278794EC00F8F3AC /* CommunicationUIProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88987F76278794EC00F8F3AC /* CommunicationUIProxy.swift */; };
+		948D41847B0A81F824F39A4E /* Pods_CommunicationUI_Proxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C5DDD3CB912E342D82DB69 /* Pods_CommunicationUI_Proxy.framework */; };
+		D70223983A1631B49F2E4FD6 /* Pods_CommunicationUI_Proxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C5DDD3CB912E342D82DB69 /* Pods_CommunicationUI_Proxy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39C5DDD3CB912E342D82DB69 /* Pods_CommunicationUI_Proxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommunicationUI_Proxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		679AC0E359B695AAB5AB626A /* Pods-CommunicationUI-Proxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunicationUI-Proxy.release.xcconfig"; path = "Target Support Files/Pods-CommunicationUI-Proxy/Pods-CommunicationUI-Proxy.release.xcconfig"; sourceTree = "<group>"; };
-		8833B83D28B942D400A8D94C /* FatFramework-Proxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FatFramework-Proxy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88987F6C2787944A00F8F3AC /* CommunicationUI_Proxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommunicationUI_Proxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88987F6F2787944A00F8F3AC /* CommunicationUI_Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunicationUI_Proxy.h; sourceTree = "<group>"; };
 		88987F76278794EC00F8F3AC /* CommunicationUIProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationUIProxy.swift; sourceTree = "<group>"; };
-		F9C7050BBB36D8B009226794 /* Pods-CommunicationUI-Proxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunicationUI-Proxy.debug.xcconfig"; path = "Target Support Files/Pods-CommunicationUI-Proxy/Pods-CommunicationUI-Proxy.debug.xcconfig"; sourceTree = "<group>"; };
+		D27A30FC553F217F55A6E28D /* Pods-CommunicationUI-Proxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunicationUI-Proxy.debug.xcconfig"; path = "Target Support Files/Pods-CommunicationUI-Proxy/Pods-CommunicationUI-Proxy.debug.xcconfig"; sourceTree = "<group>"; };
+		E83ADE53E0BB9B235594F073 /* Pods-CommunicationUI-Proxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunicationUI-Proxy.release.xcconfig"; path = "Target Support Files/Pods-CommunicationUI-Proxy/Pods-CommunicationUI-Proxy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8833B83628B942D400A8D94C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8833B83728B942D400A8D94C /* Pods_CommunicationUI_Proxy.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88987F692787944A00F8F3AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E2657BEE98B963DEB433B26 /* Pods_CommunicationUI_Proxy.framework in Frameworks */,
+				D70223983A1631B49F2E4FD6 /* Pods_CommunicationUI_Proxy.framework in Frameworks */,
+				948D41847B0A81F824F39A4E /* Pods_CommunicationUI_Proxy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				88987F6C2787944A00F8F3AC /* CommunicationUI_Proxy.framework */,
-				8833B83D28B942D400A8D94C /* FatFramework-Proxy.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,8 +75,8 @@
 		FDBF739CF073F98DD039F817 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9C7050BBB36D8B009226794 /* Pods-CommunicationUI-Proxy.debug.xcconfig */,
-				679AC0E359B695AAB5AB626A /* Pods-CommunicationUI-Proxy.release.xcconfig */,
+				D27A30FC553F217F55A6E28D /* Pods-CommunicationUI-Proxy.debug.xcconfig */,
+				E83ADE53E0BB9B235594F073 /* Pods-CommunicationUI-Proxy.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -93,14 +84,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8833B83228B942D400A8D94C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8833B83328B942D400A8D94C /* CommunicationUI_Proxy.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88987F672787944A00F8F3AC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,26 +95,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8833B83028B942D400A8D94C /* FatFramework-Proxy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8833B83A28B942D400A8D94C /* Build configuration list for PBXNativeTarget "FatFramework-Proxy" */;
-			buildPhases = (
-				8833B83128B942D400A8D94C /* [CP] Check Pods Manifest.lock */,
-				8833B83228B942D400A8D94C /* Headers */,
-				8833B83428B942D400A8D94C /* Sources */,
-				8833B83628B942D400A8D94C /* Frameworks */,
-				8833B83828B942D400A8D94C /* Resources */,
-				8833B83928B942D400A8D94C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FatFramework-Proxy";
-			productName = "CommunicationUI-Proxy";
-			productReference = 8833B83D28B942D400A8D94C /* FatFramework-Proxy.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		88987F6B2787944A00F8F3AC /* CommunicationUI-Proxy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88987F732787944A00F8F3AC /* Build configuration list for PBXNativeTarget "CommunicationUI-Proxy" */;
@@ -180,19 +143,11 @@
 			projectRoot = "";
 			targets = (
 				88987F6B2787944A00F8F3AC /* CommunicationUI-Proxy */,
-				8833B83028B942D400A8D94C /* FatFramework-Proxy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8833B83828B942D400A8D94C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88987F6A2787944A00F8F3AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,45 +158,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8833B83128B942D400A8D94C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CommunicationUI-Proxy-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8833B83928B942D400A8D94C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Copy Device(arm64) Framework at fresh universal folder location \ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CommunicationUI_Proxy.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/AzureCommunicationCommon/AzureCommunicationCommon.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/AzureCommunicationUICalling/AzureCommunicationUICalling.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MicrosoftFluentUI/FluentUI.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/XCFrameworkIntermediates/AzureCommunicationCalling/AzureCommunicationCalling.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Copy Sim(x86_64) Frameworks's \"MyFramework.swiftmodule\" Folder Content & paste it at  Fat(x86_64 + arm64) Frameworks's  \"MyFramework.swiftmodule\" folder.\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CommunicationUI_Proxy.framework/Modules/CommunicationUI_Proxy.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/CommunicationUI_Proxy.framework/Modules/CommunicationUI_Proxy.swiftmodule\"\nfi\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/AzureCommunicationCommon/AzureCommunicationCommon.framework/Modules/AzureCommunicationCommon.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationCommon.framework/Modules/AzureCommunicationCommon.swiftmodule\"\nfi\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/AzureCommunicationUICalling/AzureCommunicationUICalling.framework/Modules/AzureCommunicationUICalling.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationUICalling.framework/Modules/AzureCommunicationUICalling.swiftmodule\"\nfi\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MicrosoftFluentUI/FluentUI.framework/Modules/FluentUI.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/FluentUI.framework/Modules/MicrosoftFluentUI.swiftmodule\"\nfi\n\n# Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/CommunicationUI_Proxy.framework/CommunicationUI_Proxy\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CommunicationUI_Proxy.framework/CommunicationUI_Proxy\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CommunicationUI_Proxy.framework/CommunicationUI_Proxy\"\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationCommon.framework/AzureCommunicationCommon\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/AzureCommunicationCommon/AzureCommunicationCommon.framework/AzureCommunicationCommon\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/AzureCommunicationCommon/AzureCommunicationCommon.framework/AzureCommunicationCommon\"\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationUICalling.framework/AzureCommunicationUICalling\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/AzureCommunicationUICalling/AzureCommunicationUICalling.framework/AzureCommunicationUICalling\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/AzureCommunicationUICalling/AzureCommunicationUICalling.framework/AzureCommunicationUICalling\"\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/FluentUI.framework/FluentUI\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MicrosoftFluentUI/FluentUI.framework/FluentUI\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MicrosoftFluentUI/FluentUI.framework/FluentUI\"\n\nlipo -create \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/XCFrameworkIntermediates/AzureCommunicationCalling/AzureCommunicationCalling.framework/AzureCommunicationCalling\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/XCFrameworkIntermediates/AzureCommunicationCalling/AzureCommunicationCalling.framework/AzureCommunicationCalling\" -output \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationCalling.framework/AzureCommunicationCalling\"\n\n# Copy output at Project Directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/CommunicationUI_Proxy.framework\" \"${PROJECT_DIR}/Framework/\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationCommon.framework\" \"${PROJECT_DIR}/Framework/\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationUICalling.framework\" \"${PROJECT_DIR}/Framework/\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/FluentUI.framework\" \"${PROJECT_DIR}/Framework/\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/AzureCommunicationCalling.framework\" \"${PROJECT_DIR}/Framework/\"\n# Open Project Directory\nopen \"${PROJECT_DIR}\"\n\n";
-		};
 		9AA3A6715D22B1883D91BF06 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,14 +183,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8833B83428B942D400A8D94C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8833B83528B942D400A8D94C /* CommunicationUIProxy.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88987F682787944A00F8F3AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,69 +194,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8833B83B28B942D400A8D94C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C7050BBB36D8B009226794 /* Pods-CommunicationUI-Proxy.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UBF8T346G9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CommunicationUI-Proxy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8833B83C28B942D400A8D94C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679AC0E359B695AAB5AB626A /* Pods-CommunicationUI-Proxy.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UBF8T346G9;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CommunicationUI-Proxy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		88987F712787944A00F8F3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -473,7 +318,7 @@
 		};
 		88987F742787944A00F8F3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C7050BBB36D8B009226794 /* Pods-CommunicationUI-Proxy.debug.xcconfig */;
+			baseConfigurationReference = D27A30FC553F217F55A6E28D /* Pods-CommunicationUI-Proxy.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -505,7 +350,7 @@
 		};
 		88987F752787944A00F8F3AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679AC0E359B695AAB5AB626A /* Pods-CommunicationUI-Proxy.release.xcconfig */;
+			baseConfigurationReference = E83ADE53E0BB9B235594F073 /* Pods-CommunicationUI-Proxy.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,15 +382,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8833B83A28B942D400A8D94C /* Build configuration list for PBXNativeTarget "FatFramework-Proxy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8833B83B28B942D400A8D94C /* Debug */,
-				8833B83C28B942D400A8D94C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		88987F662787944A00F8F3AC /* Build configuration list for PBXProject "CommunicationUI-Proxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
