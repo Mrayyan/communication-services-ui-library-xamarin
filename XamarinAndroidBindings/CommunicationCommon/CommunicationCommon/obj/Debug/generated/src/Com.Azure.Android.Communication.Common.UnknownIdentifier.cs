@@ -45,7 +45,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_id = JNIEnv.NewString (id);
+			IntPtr native_id = JNIEnv.NewString ((string)id);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_id);

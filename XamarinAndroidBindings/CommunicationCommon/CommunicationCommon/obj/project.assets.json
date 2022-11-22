@@ -1230,20 +1230,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/joshualai/.nuget/packages/": {}
+    "/Users/msiddiqui/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joshualai/Documents/code/azure/communication-services-ui-library-xamarin-hero-pr/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/CommunicationCommon.csproj",
+      "projectUniqueName": "/Users/msiddiqui/Documents/GitHub/FHL/communication-services-ui-library-xamarin/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/CommunicationCommon.csproj",
       "projectName": "CommunicationCommon",
-      "projectPath": "/Users/joshualai/Documents/code/azure/communication-services-ui-library-xamarin-hero-pr/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/CommunicationCommon.csproj",
-      "packagesPath": "/Users/joshualai/.nuget/packages/",
-      "outputPath": "/Users/joshualai/Documents/code/azure/communication-services-ui-library-xamarin-hero-pr/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/obj/",
+      "projectPath": "/Users/msiddiqui/Documents/GitHub/FHL/communication-services-ui-library-xamarin/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/CommunicationCommon.csproj",
+      "packagesPath": "/Users/msiddiqui/.nuget/packages/",
+      "outputPath": "/Users/msiddiqui/Documents/GitHub/FHL/communication-services-ui-library-xamarin/XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/joshualai/.config/NuGet/NuGet.Config"
+        "/Users/msiddiqui/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
@@ -1254,8 +1254,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/joshualai/Documents/code/azure/communication-services-ui-library-xamarin-hero-pr/XamarinAndroidBindings/CommunicationCore/CommunicationCore/CommunicationCore.csproj": {
-              "projectPath": "/Users/joshualai/Documents/code/azure/communication-services-ui-library-xamarin-hero-pr/XamarinAndroidBindings/CommunicationCore/CommunicationCore/CommunicationCore.csproj"
+            "/Users/msiddiqui/Documents/GitHub/FHL/communication-services-ui-library-xamarin/XamarinAndroidBindings/CommunicationCore/CommunicationCore/CommunicationCore.csproj": {
+              "projectPath": "/Users/msiddiqui/Documents/GitHub/FHL/communication-services-ui-library-xamarin/XamarinAndroidBindings/CommunicationCore/CommunicationCore/CommunicationCore.csproj"
             }
           }
         }

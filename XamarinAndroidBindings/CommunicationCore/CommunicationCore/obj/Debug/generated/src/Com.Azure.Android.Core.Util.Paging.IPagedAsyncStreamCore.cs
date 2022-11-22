@@ -191,7 +191,7 @@ namespace Com.Azure.Android.Core.Util.Paging {
 		{
 			if (id_getPage_Ljava_lang_String_Lcom_azure_android_core_util_BiConsumer_ == IntPtr.Zero)
 				id_getPage_Ljava_lang_String_Lcom_azure_android_core_util_BiConsumer_ = JNIEnv.GetMethodID (class_ref, "getPage", "(Ljava/lang/String;Lcom/azure/android/core/util/BiConsumer;)V");
-			IntPtr native_p0 = JNIEnv.NewString (p0);
+			IntPtr native_p0 = JNIEnv.NewString ((string)p0);
 			JValue* __args = stackalloc JValue [2];
 			__args [0] = new JValue (native_p0);
 			__args [1] = new JValue ((p1 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p1).Handle);

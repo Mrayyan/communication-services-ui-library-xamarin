@@ -3,7 +3,7 @@ namespace CommunicationCallingXamarinSampleApp
 {
     public interface IComposite
     {
-        void joinCall(string name, string acsToken, string callID, bool isTeamsCall, LocalizationProps? localization, DataModelInjectionProps? dataModelInjection);
-        List<string> languages();
+        void joinCall(string threadID, string acsToken, string endPointUrl, string displayName, string identity);
+
     }
 }

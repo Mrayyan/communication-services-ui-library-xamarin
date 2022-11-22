@@ -61,7 +61,7 @@ namespace Com.Azure.Android.Core.Util {
 		public static unsafe byte[] DecodeString (string encoded)
 		{
 			const string __id = "decodeString.(Ljava/lang/String;)[B";
-			IntPtr native_encoded = JNIEnv.NewString (encoded);
+			IntPtr native_encoded = JNIEnv.NewString ((string)encoded);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_encoded);

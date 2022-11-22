@@ -65,7 +65,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_userToken = JNIEnv.NewString (userToken);
+			IntPtr native_userToken = JNIEnv.NewString ((string)userToken);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_userToken);

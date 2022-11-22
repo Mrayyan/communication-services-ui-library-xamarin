@@ -45,7 +45,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_userId = JNIEnv.NewString (userId);
+			IntPtr native_userId = JNIEnv.NewString ((string)userId);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_userId);
@@ -66,7 +66,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_userId = JNIEnv.NewString (userId);
+			IntPtr native_userId = JNIEnv.NewString ((string)userId);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue (native_userId);
@@ -151,7 +151,7 @@ namespace Com.Azure.Android.Communication.Common {
 		public unsafe global::Com.Azure.Android.Communication.Common.MicrosoftTeamsUserIdentifier SetRawId (string rawId)
 		{
 			const string __id = "setRawId.(Ljava/lang/String;)Lcom/azure/android/communication/common/MicrosoftTeamsUserIdentifier;";
-			IntPtr native_rawId = JNIEnv.NewString (rawId);
+			IntPtr native_rawId = JNIEnv.NewString ((string)rawId);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_rawId);

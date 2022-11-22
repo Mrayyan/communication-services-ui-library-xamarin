@@ -60,7 +60,7 @@ namespace Com.Azure.Android.Core.Util {
 		protected static unsafe global::Java.Lang.Object FromString (string name, global::Java.Lang.Class clazz)
 		{
 			const string __id = "fromString.(Ljava/lang/String;Ljava/lang/Class;)Lcom/azure/android/core/util/ExpandableStringEnum;";
-			IntPtr native_name = JNIEnv.NewString (name);
+			IntPtr native_name = JNIEnv.NewString ((string)name);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue (native_name);

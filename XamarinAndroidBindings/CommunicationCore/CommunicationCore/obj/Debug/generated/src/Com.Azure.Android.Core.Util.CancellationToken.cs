@@ -108,7 +108,7 @@ namespace Com.Azure.Android.Core.Util {
 		public unsafe void RegisterOnCancel (string id, global::Java.Lang.IRunnable onCancel)
 		{
 			const string __id = "registerOnCancel.(Ljava/lang/String;Ljava/lang/Runnable;)V";
-			IntPtr native_id = JNIEnv.NewString (id);
+			IntPtr native_id = JNIEnv.NewString ((string)id);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue (native_id);
@@ -125,7 +125,7 @@ namespace Com.Azure.Android.Core.Util {
 		public unsafe void UnregisterOnCancel (string id)
 		{
 			const string __id = "unregisterOnCancel.(Ljava/lang/String;)V";
-			IntPtr native_id = JNIEnv.NewString (id);
+			IntPtr native_id = JNIEnv.NewString ((string)id);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_id);

@@ -115,7 +115,11 @@
         <parameter name="dateTime" type="org.threeten.bp.OffsetDateTime" jni-type="Lorg/threeten/bp/OffsetDateTime;" />
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getDateTime" jni-signature="()Lorg/threeten/bp/OffsetDateTime;" bridge="false" native="false" return="org.threeten.bp.OffsetDateTime" jni-return="Lorg/threeten/bp/OffsetDateTime;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="toRfc1123String" jni-signature="(Lorg/threeten/bp/OffsetDateTime;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dateTime" type="org.threeten.bp.OffsetDateTime" jni-type="Lorg/threeten/bp/OffsetDateTime;" />
+      </method>
     </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DateTimeRfc1123.1" static="true" visibility="" jni-signature="Lcom/azure/android/core/util/DateTimeRfc1123$1;" />
     <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ExpandableStringEnum" static="false" visibility="public" jni-signature="Lcom/azure/android/core/util/ExpandableStringEnum;">
       <typeParameters>
         <typeParameter name="T" classBound="com.azure.android.core.util.ExpandableStringEnum&lt;T&gt;" jni-classBound="Lcom/azure/android/core/util/ExpandableStringEnum&lt;TT;&gt;;">
@@ -266,7 +270,7 @@
       <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
       <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.azure.core.micro&quot;" visibility="public" volatile="false" />
       <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false" />
-      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0.0-beta.9&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0.0-beta.12&quot;" visibility="public" volatile="false" />
     </class>
   </package>
 </api>

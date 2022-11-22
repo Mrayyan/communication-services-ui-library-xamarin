@@ -75,10 +75,11 @@
     <EmbeddedReferenceJar Include="Jars\jackson-core-2.11.2.jar" />
     <EmbeddedReferenceJar Include="Jars\jackson-databind-2.11.3.jar" />
     <EmbeddedReferenceJar Include="Jars\jackson-dataformat-xml-2.11.2.jar" />
+    <EmbeddedReferenceJar Include="Jars\okhttp-3.14.9.jar" />
     <EmbeddedReferenceJar Include="Jars\jackson-module-jaxb-annotations-2.11.2.jar" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\azure-core-1.0.0-beta.9.aar" />
+    <LibraryProjectZip Include="Jars\azure-core-1.0.0-beta.12.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

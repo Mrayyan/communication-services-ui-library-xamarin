@@ -45,7 +45,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_phoneNumber = JNIEnv.NewString (phoneNumber);
+			IntPtr native_phoneNumber = JNIEnv.NewString ((string)phoneNumber);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_phoneNumber);
@@ -88,7 +88,7 @@ namespace Com.Azure.Android.Communication.Common {
 		public unsafe global::Com.Azure.Android.Communication.Common.PhoneNumberIdentifier SetRawId (string rawId)
 		{
 			const string __id = "setRawId.(Ljava/lang/String;)Lcom/azure/android/communication/common/PhoneNumberIdentifier;";
-			IntPtr native_rawId = JNIEnv.NewString (rawId);
+			IntPtr native_rawId = JNIEnv.NewString ((string)rawId);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_rawId);

@@ -45,8 +45,8 @@ namespace Com.Azure.Android.Core.Util {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_name = JNIEnv.NewString (name);
-			IntPtr native_value = JNIEnv.NewString (value);
+			IntPtr native_name = JNIEnv.NewString ((string)name);
+			IntPtr native_value = JNIEnv.NewString ((string)value);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue (native_name);
@@ -140,7 +140,7 @@ namespace Com.Azure.Android.Core.Util {
 		public virtual unsafe void AddValue (string value)
 		{
 			const string __id = "addValue.(Ljava/lang/String;)V";
-			IntPtr native_value = JNIEnv.NewString (value);
+			IntPtr native_value = JNIEnv.NewString ((string)value);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_value);

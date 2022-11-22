@@ -45,7 +45,7 @@ namespace Com.Azure.Android.Core.Util {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_formattedString = JNIEnv.NewString (formattedString);
+			IntPtr native_formattedString = JNIEnv.NewString ((string)formattedString);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_formattedString);
@@ -87,6 +87,21 @@ namespace Com.Azure.Android.Core.Util {
 					return global::Java.Lang.Object.GetObject<global::ThreeTen.BP.OffsetDateTime> (__rm.Handle, JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
+			}
+		}
+
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.azure.android.core.util']/class[@name='DateTimeRfc1123']/method[@name='toRfc1123String' and count(parameter)=1 and parameter[1][@type='org.threeten.bp.OffsetDateTime']]"
+		[Register ("toRfc1123String", "(Lorg/threeten/bp/OffsetDateTime;)Ljava/lang/String;", "")]
+		public static unsafe string ToRfc1123String (global::ThreeTen.BP.OffsetDateTime dateTime)
+		{
+			const string __id = "toRfc1123String.(Lorg/threeten/bp/OffsetDateTime;)Ljava/lang/String;";
+			try {
+				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
+				__args [0] = new JniArgumentValue ((dateTime == null) ? IntPtr.Zero : ((global::Java.Lang.Object) dateTime).Handle);
+				var __rm = _members.StaticMethods.InvokeObjectMethod (__id, __args);
+				return JNIEnv.GetString (__rm.Handle, JniHandleOwnership.TransferLocalRef);
+			} finally {
+				global::System.GC.KeepAlive (dateTime);
 			}
 		}
 

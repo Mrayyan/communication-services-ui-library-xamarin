@@ -26,7 +26,7 @@ namespace Com.Azure.Android.Communication.Common {
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='com.azure.android.communication.common']/class[@name='BuildConfig']/field[@name='VERSION_NAME']"
 		[Register ("VERSION_NAME")]
-		public const string VersionName = (string) "1.0.0";
+		public const string VersionName = (string) "1.0.0-beta.8";
 
 		static readonly JniPeerMembers _members = new XAPeerMembers ("com/azure/android/communication/common/BuildConfig", typeof (BuildConfig));
 

@@ -70,7 +70,7 @@ namespace Com.Azure.Android.Core.Util {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native__string = JNIEnv.NewString (@string);
+			IntPtr native__string = JNIEnv.NewString ((string)@string);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native__string);

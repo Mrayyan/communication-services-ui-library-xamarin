@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   Copyright (c) Microsoft Corporation. All rights reserved.
-   Licensed under the MIT License.
--->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.azure.android.communication.ui" >
+    package="com.azure.android.communication.ui.chat" >
 
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="31" />
+        android:minSdkVersion="23"
+        android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
-    <application android:hardwareAccelerated="true" >
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
+    <application>
         <activity
-            android:name="com.azure.android.communication.ui.calling.presentation.CallCompositeActivity"
+            android:name="com.azure.android.communication.ui.chat.presentation.ChatCompositeActivity"
             android:exported="false"
-            android:launchMode="singleTask"
-            android:theme="@style/AzureCommunicationUICalling.Theme" />
-
-        <service
-            android:name="com.azure.android.communication.ui.calling.service.InCallService"
-            android:exported="false"
-            android:foregroundServiceType="microphone"
-            android:stopWithTask="true" />
+            android:label="@string/azure_communication_ui_chat_title_activity_compose_chat"
+            android:theme="@style/AzureCommunicationUIChat.Theme"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

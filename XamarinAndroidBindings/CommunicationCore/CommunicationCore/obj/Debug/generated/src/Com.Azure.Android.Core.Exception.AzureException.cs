@@ -62,7 +62,7 @@ namespace Com.Azure.Android.Core.Exception {
 			if (((global::Java.Lang.Throwable) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_message = JNIEnv.NewString (message);
+			IntPtr native_message = JNIEnv.NewString ((string)message);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_message);
@@ -83,7 +83,7 @@ namespace Com.Azure.Android.Core.Exception {
 			if (((global::Java.Lang.Throwable) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_message = JNIEnv.NewString (message);
+			IntPtr native_message = JNIEnv.NewString ((string)message);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue (native_message);

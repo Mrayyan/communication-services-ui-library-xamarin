@@ -37,6 +37,7 @@ com/azure/android/core/util/DateTimeRfc1123 = Com.Azure.Android.Core.Util.DateTi
   <init>(Ljava/lang/String;)V = .ctor(string)
   <init>(Lorg/threeten/bp/OffsetDateTime;)V = .ctor(ThreeTen.BP.OffsetDateTime)
   getDateTime()Lorg/threeten/bp/OffsetDateTime; = DateTime
+  toRfc1123String(Lorg/threeten/bp/OffsetDateTime;)Ljava/lang/String; = ToRfc1123String(ThreeTen.BP.OffsetDateTime)
 com/azure/android/core/util/ExpandableStringEnum = Com.Azure.Android.Core.Util.ExpandableStringEnum
   <init>()V = .ctor()
   fromString(Ljava/lang/String;Ljava/lang/Class;)Lcom/azure/android/core/util/ExpandableStringEnum; = FromString(string, Java.Lang.Class)

@@ -66,7 +66,7 @@ namespace Com.Azure.Android.Communication.Common {
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_initialToken = JNIEnv.NewString (initialToken);
+			IntPtr native_initialToken = JNIEnv.NewString ((string)initialToken);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [3];
 				__args [0] = new JniArgumentValue ((tokenRefresher == null) ? IntPtr.Zero : ((global::Java.Lang.Object) tokenRefresher).Handle);

@@ -26,7 +26,7 @@ namespace Com.Azure.Core.Micro {
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='com.azure.core.micro']/class[@name='BuildConfig']/field[@name='VERSION_NAME']"
 		[Register ("VERSION_NAME")]
-		public const string VersionName = (string) "1.0.0-beta.9";
+		public const string VersionName = (string) "1.0.0-beta.12";
 
 		static readonly JniPeerMembers _members = new XAPeerMembers ("com/azure/core/micro/BuildConfig", typeof (BuildConfig));
 

@@ -4,9 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="CommunicationCallingXamarinSampleApp.JoinCallPage"
     Title="Join">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Name="SettingsToolbarItem" Order="Primary" Text="Settings" Priority="0" Clicked="OnToolbarClicked"/>
-    </ContentPage.ToolbarItems>
+
+    
     <ScrollView>
         <StackLayout>
             <Grid HorizontalOptions="Center" Margin="16, 8">
@@ -16,46 +15,35 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="343"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Frame Grid.Row="0" BackgroundColor="#F1F1F1"  Padding="0" Margin="0" HasShadow="False" VerticalOptions="Center" HeightRequest="32" WidthRequest="343" HorizontalOptions="Center">
-                    <Frame.CornerRadius>
-                        <OnPlatform x:TypeArguments="x:Single">
-                            <On Platform="iOS" Value="15"></On>
-                            <On Platform="Android" Value="20"></On>
-                        </OnPlatform>
-                    </Frame.CornerRadius>
-                </Frame>  
-                <Frame x:Name="runningFrame" HeightRequest="32" WidthRequest="171.5" BackgroundColor="#0078D4" HasShadow="False" Margin="0" Padding="0" HorizontalOptions="Start" VerticalOptions="Center">
-                    <Frame.CornerRadius>
-                        <OnPlatform x:TypeArguments="x:Single">
-                            <On Platform="iOS" Value="15"></On>
-                            <On Platform="Android" Value="20"></On>
-                        </OnPlatform>
-                    </Frame.CornerRadius>
-                </Frame>
-                <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="171.5" HeightRequest="32">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnGroupCallClicked"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Label x:Name="groupCallPivot" Text="Group Call" TextColor="White" WidthRequest="171.5" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="End" WidthRequest="171.5" HeightRequest="32">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnTeamsMeetingClicked"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Label x:Name="teamsMeetingPivot" Text="Teams Meeting" TextColor="#6E6E6E" WidthRequest="171.5" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
-                </StackLayout>
+              
+               
             </Grid>
-            <Label Text="Access Token" FontSize="13" HorizontalTextAlignment="Start" Margin="16, 24, 16, 8" TextColor="#6E6E6E"/>
-            <Entry x:Name="tokenEntry" Margin="0, 0, 0, 4" Placeholder="Enter access token"/>
+
+            <Label Text="Access Token" FontSize="13" HorizontalTextAlignment="Start" Margin="16, 4, 16, 8" TextColor="#6E6E6E"/>
+            <Entry x:Name="tokenEntry" Margin="0, 0, 0, 4" Placeholder="Enter access token" Text="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJza3lwZWlkIjoiYWNzOmI2YWFkYTFmLTBiMWQtNDdhYy04NjZmLTkxYWFlMDBhMWQwMV8wMDAwMDAxNS0zYjYzLTFjODItNmZhNi05MjNhMGQwMDdkZWUiLCJzY3AiOjE3OTIsImNzaSI6IjE2NjkwNTYyNjQiLCJleHAiOjE2NjkxNDI2NjQsImFjc1Njb3BlIjoiY2hhdCx2b2lwIiwicmVzb3VyY2VJZCI6ImI2YWFkYTFmLTBiMWQtNDdhYy04NjZmLTkxYWFlMDBhMWQwMSIsInJlc291cmNlTG9jYXRpb24iOiJ1bml0ZWRzdGF0ZXMiLCJpYXQiOjE2NjkwNTYyNjR9.n25WpYmIfPMXLHGjgn2UIrjMZxhJf12Va8CFMN6k9gguZ6Q0WAas-5HL2wxCMezIfFZAyvLWPZ93v0p110fS1kF28M5dxvoZXvbYsuJr3JYgE-94zT1YbdRDFIzZignPXqva-6gs-66ZB1uy11r3zTspQdk0fQB3VOrvlE7ncyxVvOvW8sg96IPwr2CuprK5IF8FlMpkHZ4a_QqIv1OaMTcnnrdZqMmThfSv48BsVAVRC0-irJ91b8daeIWyC1Rqbl2lo9o7ePqvmTjC5dquJbpLDzhqnoU4xPPKL0ZvO5BKy8rJUMCxviGLQ3c59OTBIxAEIEvyLIuEdMRXQKBQ-A"/>
+            <Label Margin="16, 0, 16, 14" Text="ACS token used for authentication." FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+
+            <Label Text="Identity" FontSize="13" HorizontalTextAlignment="Start" Margin="16, 4, 16, 8" TextColor="#6E6E6E"/>
+            <Entry x:Name="identityEntry" Margin="0, 0, 0, 4" Placeholder="Enter indentity" Text="8:acs:b6aada1f-0b1d-47ac-866f-91aae00a1d01_00000015-3b63-1c82-6fa6-923a0d007dee" />
             <Label Margin="16, 0, 16, 14" Text="Identity token used for authentication." FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
-            <Label x:Name="meetingTitleLabel" Text="Group call ID" FontSize="13" HorizontalTextAlignment="Start" Margin="16, 24, 16, 8" TextColor="#6E6E6E"/>
-            <Entry x:Name="meetingEntry" Margin="0, 0, 0, 4" Placeholder="Enter call ID"/>
-            <Label x:Name="meetingSubtitleLabel" Margin="16, 0, 16, 14" Text="Start a call to get a call ID." FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
-            <Label Text="Your display name" Margin="16, 14, 16, 4" FontSize="13" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
-            <Entry x:Name="name" Margin="0, 4, 0, 4" Placeholder="Enter a name"/>
+
+            <Label Text="Your display name" Margin="16, 4, 16, 4" FontSize="13" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+            <Entry x:Name="nameEntry" Margin="0, 4, 0, 4" Placeholder="Enter a name" Text="Muhammad" />
             <Label Margin="16, 0, 16, 33" Text="Name shown the others on the call." FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+
+            
+            <Label Text="Chat Thread ID / Teams Meeting Url" Margin="16, 4, 16, 4" FontSize="13" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+            <Entry x:Name="chatThreadidOrMeetingLinkEntry" Margin="0, 4, 0, 4" Placeholder="Enter chat thread ID or teams meeting url" Text="19:bEPPAEXYcKgTPKumN4_ZEknXhBYZCB5Wc_zQ1BrgYlM1@thread.v2"/>
+            <Label Margin="16, 0, 16, 33" Text="Start a chat to get chat ID" FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+
+            
+            <Label Text="Entry Point URL" Margin="16, 4, 16, 4" FontSize="13" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+            <Entry x:Name="endpointUrlEntry" Margin="0, 4, 0, 4" Placeholder="Enter end point URL" Text="https://acs-ui-dev.communication.azure.com/"/>
+            <Label Margin="16, 0, 16, 33" Text="End point url" FontSize="12" HorizontalTextAlignment="Start" TextColor="#6E6E6E"/>
+
+
             <Button Text="Next" Clicked="OnButtonClicked" BackgroundColor="#0078D4" Margin="16, 0" TextColor="White"></Button>
         </StackLayout>
     </ScrollView>
+
 </ContentPage>

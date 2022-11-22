@@ -94,7 +94,7 @@ namespace Com.Azure.Android.Communication.Common {
 		public static unsafe global::Com.Azure.Android.Communication.Common.CommunicationCloudEnvironment FromString (string name)
 		{
 			const string __id = "fromString.(Ljava/lang/String;)Lcom/azure/android/communication/common/CommunicationCloudEnvironment;";
-			IntPtr native_name = JNIEnv.NewString (name);
+			IntPtr native_name = JNIEnv.NewString ((string)name);
 			try {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
 				__args [0] = new JniArgumentValue (native_name);

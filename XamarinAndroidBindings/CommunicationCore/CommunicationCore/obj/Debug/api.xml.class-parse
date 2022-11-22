@@ -781,6 +781,25 @@
         abstract="false"
         deprecated="not deprecated"
         final="false"
+        name="toRfc1123String"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/threeten/bp/OffsetDateTime;)Ljava/lang/String;">
+        <parameter
+          name="dateTime"
+          type="org.threeten.bp.OffsetDateTime"
+          jni-type="Lorg/threeten/bp/OffsetDateTime;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
         name="toString"
         native="false"
         return="java.lang.String"
@@ -792,6 +811,19 @@
         synthetic="false"
         jni-signature="()Ljava/lang/String;" />
     </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/azure/android/core/util/DateTimeRfc1123;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="DateTimeRfc1123.1"
+      jni-signature="Lcom/azure/android/core/util/DateTimeRfc1123$1;"
+      source-file-name="DateTimeRfc1123.java"
+      static="true"
+      visibility="" />
     <class
       abstract="true"
       deprecated="not deprecated"
@@ -1731,7 +1763,7 @@
         type="java.lang.String"
         type-generic-aware="java.lang.String"
         jni-signature="Ljava/lang/String;"
-        value="&quot;1.0.0-beta.9&quot;"
+        value="&quot;1.0.0-beta.12&quot;"
         visibility="public"
         volatile="false" />
     </class>
