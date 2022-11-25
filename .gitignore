@@ -223,11 +223,5 @@ XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/Fra
 XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/bin/
 XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/.vs
 XamariniOSBindings/CommunicationUIProxy.Binding/CommunicationUIProxy.Binding/obj
-# Jars/
-XamarinAndroidBindings/CommunicationCore/CommunicationCore/Jars/
-XamarinAndroidBindings/CommunicationCommon/CommunicationCommon/Jars/
-XamarinAndroidBindings/CommunicationUILibrary/CommunicationUILibrary/Jars/
-CommunicationCallingXamarinSampleApp/CommunicationCallingXamarinSampleApp.Android/aar
 
-*.jar
-*.aar
+XamarinAndroidBindings/CommunicationCore/CommunicationCore/.DS_Store
